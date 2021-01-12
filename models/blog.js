@@ -15,8 +15,8 @@ const blogSchema = new mongoose.Schema({
     ref: 'User'
   },
   likes: {
-    type:Number,
-    required:true,
+    type:Array,
+    default:[]
   },
 })
 

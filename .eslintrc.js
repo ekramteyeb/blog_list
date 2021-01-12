@@ -41,5 +41,5 @@ module.exports = {
     'no-console': 0,
     'no-underscore-dangle': ['error', { allow: ['__v', '_id'] }],
     'arrow-parens': ['error', 'as-needed'],
-  },
+  }
 }
