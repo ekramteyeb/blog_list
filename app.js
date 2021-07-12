@@ -24,6 +24,8 @@ mongoose
     logger.error('error connecting to MongoDB: ', error.message)
   })
 
+// enables the app to consume static files in built front end folder
+app.use(express.static('build'))
 // middlewares
 app.use(cors())
 app.use(express.json())
