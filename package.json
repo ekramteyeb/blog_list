@@ -2,6 +2,9 @@
   "name": "blog_list",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+   "node": "12.11.1"
+   },
   "scripts": {
     "start": "cross-env NODE_ENV=production node index.js",
     "dev": "cross-env NODE_ENV=development nodemon index.js",
