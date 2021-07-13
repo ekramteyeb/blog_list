@@ -1,2 +1,2 @@
-# blog_list
-back_end
+# blog_list app 
+front end(build) + back_end
